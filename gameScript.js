@@ -174,7 +174,7 @@ canvas.onclick =  function(e){
 			if(isPossible(x, y)){	
 				whiteArray.push(new white(new Vector(x, y) ));
 				move(x, y);
-				setTimeout(moveAI, 700);
+				setTimeout(moveAI, 200);
 				
 			}
 		}
